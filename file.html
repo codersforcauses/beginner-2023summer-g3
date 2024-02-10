@@ -20,15 +20,16 @@
     </header>
 
     <nav>
-      <a href="#" onclick="showHome()">Home</a> |
+      <a href="#" id="homeLink">Home</a> |
       <div class="dropdown" onmouseover="showShopDropdown()" onmouseout="hideShopDropdown()">
           <a href="#">Shop</a>
           <div class="dropdown-content">
               <a href="#" id="dressLink">Dress</a>
-              <a href="#" onclick="viewCategory('Shoes')">Shoes</a>
-              <a href="#" onclick="viewCategory('Shirts')">Shirts</a>
-              <a href="#" onclick="viewCategory('Shorts')">Shorts</a>
-              <a href="#" onclick="viewCategory('Pants')">Pants</a>
+              <a href="#" id="shoeLink">Shoes</a>
+              <a href="#" id="shirtsLink">Shirts</a>
+              <a href="#" id="shortsLink">Shorts</a>
+              <a href="#" id="pantsLink">Pants</a>
+    
           </div>
       </div> |
       <a href="#" onclick="showCart()">Cart</a> |
@@ -48,6 +49,9 @@
             <p>Description of Product 1.</p>
             <p>Price: $54.00</p>
         </div>
+
+
+        
 
         <div class="product">
             <img src="https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/706/2547/100/1/833871430/833871430_1_720x928.webp" alt="Image 2">

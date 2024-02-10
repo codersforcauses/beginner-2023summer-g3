@@ -20,7 +20,9 @@ nav {
     text-align: center;
 }
 
-
+h1 {
+    color: purple;
+}
 
 .dropdown-content {
     display: none;
@@ -31,18 +33,10 @@ nav {
     z-index: 1;
 }
 
-.dropdown-content a {
-    color: #333;
-    padding: 12px 16px;
-    display: block;
-    text-decoration: none;
-}
-
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Add this to your existing CSS */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -109,6 +103,9 @@ img {
     margin-bottom: 1em;
 }
 
-h1, h2 {
+h2 {
     color: #3498db;
 }
+
+
+

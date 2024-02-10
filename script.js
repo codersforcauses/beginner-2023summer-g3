@@ -61,3 +61,79 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'dress.html';
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the dress link element by its ID
+    var homeLink = document.getElementById('homeLink');
+
+    // Add a click event listener to the dress link
+    homeLink.addEventListener('click', function(event) {
+        // Prevent the default behavior of the link (preventing page reload)
+        event.preventDefault();
+
+        // Navigate to "a.html"
+        window.location.href = 'file.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the dress link element by its ID
+    var shoeLink = document.getElementById('shoeLink');
+
+    // Add a click event listener to the dress link
+    shoeLink.addEventListener('click', function(event) {
+        // Prevent the default behavior of the link (preventing page reload)
+        event.preventDefault();
+
+        // Navigate to "a.html"
+        window.location.href = 'shoes.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the dress link element by its ID
+    var shirtsLink = document.getElementById('shirtsLink');
+
+    // Add a click event listener to the dress link
+    shirtsLink.addEventListener('click', function(event) {
+        // Prevent the default behavior of the link (preventing page reload)
+        event.preventDefault();
+
+        // Navigate to "a.html"
+        window.location.href = 'shirts.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the dress link element by its ID
+    var shortsLink = document.getElementById('shortsLink');
+
+    // Add a click event listener to the dress link
+    shortsLink.addEventListener('click', function(event) {
+        // Prevent the default behavior of the link (preventing page reload)
+        event.preventDefault();
+
+        // Navigate to "a.html"
+        window.location.href = 'shorts.html';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the dress link element by its ID
+    var pantsLink = document.getElementById('pantsLink');
+
+    // Add a click event listener to the dress link
+    pantsLink.addEventListener('click', function(event) {
+        // Prevent the default behavior of the link (preventing page reload)
+        event.preventDefault();
+
+        // Navigate to "a.html"
+        window.location.href = 'pants.html';
+    });
+});
+
+
+
+
+
